@@ -29,7 +29,16 @@ const newArr= myArr.join() // join hamry array ko biand b kr deta or string ma b
 
 // console.log(typeof newArr);
 
+//slice , splice
 //it is orignal array
+
 console.log("A", myArr);
 //Make a new array
-const myn1= myArr.slice
+const myn1= myArr.slice(1,3)
+console.log(myn1);
+console.log("B", myArr);
+
+
+const myn2= myArr.splice(1,3, "helo")
+console.log( myn2);
+console.log("C", myArr);
